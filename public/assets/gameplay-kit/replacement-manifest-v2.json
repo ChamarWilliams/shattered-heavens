@@ -1,0 +1,486 @@
+{
+  "li_yunfeng": {
+    "idle": {
+      "frames": 4,
+      "source_x_partitions": [
+        16,
+        185,
+        357,
+        527,
+        692
+      ],
+      "source_y": [
+        106,
+        283
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "move": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        186,
+        353,
+        522,
+        693,
+        866,
+        1039
+      ],
+      "source_y": [
+        328,
+        512
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "basic_attack": {
+      "frames": 5,
+      "source_x_partitions": [
+        16,
+        211,
+        431,
+        651,
+        866,
+        1083
+      ],
+      "source_y": [
+        562,
+        739
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "active_ability": {
+      "frames": 8,
+      "source_x_partitions": [
+        16,
+        162,
+        297,
+        435,
+        575,
+        714,
+        854,
+        989,
+        1120
+      ],
+      "source_y": [
+        798,
+        1020
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose",
+        "frame_07: touches source cell edge; original artwork may overlap next pose",
+        "frame_08: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "hurt": {
+      "frames": 3,
+      "source_x_partitions": [
+        16,
+        192,
+        375,
+        556
+      ],
+      "source_y": [
+        1081,
+        1228
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "death": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        194,
+        375,
+        553,
+        723,
+        889,
+        1056
+      ],
+      "source_y": [
+        1261,
+        1402
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    }
+  },
+  "seo_jiwon": {
+    "idle": {
+      "frames": 4,
+      "source_x_partitions": [
+        16,
+        185,
+        357,
+        527,
+        692
+      ],
+      "source_y": [
+        104,
+        284
+      ],
+      "warnings": [
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "move": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        186,
+        353,
+        522,
+        693,
+        866,
+        1039
+      ],
+      "source_y": [
+        328,
+        500
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "basic_attack": {
+      "frames": 5,
+      "source_x_partitions": [
+        16,
+        211,
+        431,
+        651,
+        866,
+        1083
+      ],
+      "source_y": [
+        537,
+        721
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "active_ability": {
+      "frames": 8,
+      "source_x_partitions": [
+        16,
+        162,
+        297,
+        435,
+        575,
+        714,
+        854,
+        989,
+        1120
+      ],
+      "source_y": [
+        778,
+        940
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose",
+        "frame_07: touches source cell edge; original artwork may overlap next pose",
+        "frame_08: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "hurt": {
+      "frames": 3,
+      "source_x_partitions": [
+        16,
+        192,
+        375,
+        556
+      ],
+      "source_y": [
+        986,
+        1151
+      ],
+      "warnings": [
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "death": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        194,
+        375,
+        553,
+        723,
+        889,
+        1056
+      ],
+      "source_y": [
+        1238,
+        1402
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    }
+  },
+  "tsukishiro_rei": {
+    "idle": {
+      "frames": 4,
+      "source_x_partitions": [
+        16,
+        185,
+        357,
+        527,
+        692
+      ],
+      "source_y": [
+        105,
+        284
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "move": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        186,
+        353,
+        522,
+        693,
+        866,
+        1039
+      ],
+      "source_y": [
+        327,
+        507
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "basic_attack": {
+      "frames": 5,
+      "source_x_partitions": [
+        16,
+        211,
+        431,
+        651,
+        866,
+        1083
+      ],
+      "source_y": [
+        548,
+        740
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "active_ability": {
+      "frames": 8,
+      "source_x_partitions": [
+        16,
+        162,
+        297,
+        435,
+        575,
+        714,
+        854,
+        989,
+        1120
+      ],
+      "source_y": [
+        787,
+        1008
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose",
+        "frame_07: touches source cell edge; original artwork may overlap next pose",
+        "frame_08: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "hurt": {
+      "frames": 3,
+      "source_x_partitions": [
+        16,
+        192,
+        375,
+        556
+      ],
+      "source_y": [
+        1061,
+        1220
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    },
+    "death": {
+      "frames": 6,
+      "source_x_partitions": [
+        16,
+        194,
+        375,
+        553,
+        723,
+        889,
+        1056
+      ],
+      "source_y": [
+        1256,
+        1402
+      ],
+      "warnings": [
+        "frame_01: touches source cell edge; original artwork may overlap next pose",
+        "frame_02: touches source cell edge; original artwork may overlap next pose",
+        "frame_03: touches source cell edge; original artwork may overlap next pose",
+        "frame_04: touches source cell edge; original artwork may overlap next pose",
+        "frame_05: touches source cell edge; original artwork may overlap next pose",
+        "frame_06: touches source cell edge; original artwork may overlap next pose"
+      ],
+      "canvas": [
+        384,
+        384
+      ]
+    }
+  }
+}

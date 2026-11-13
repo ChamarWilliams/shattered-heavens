@@ -1,0 +1,25 @@
+{
+  "name": "shattered-heavens",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "tsc -b && vite build && node tools/prune-production-assets.mjs",
+    "test": "vitest run",
+    "check": "tsc -b --pretty false && vitest run",
+    "netlify:build": "pnpm build",
+    "package:netlify": "pwsh -NoProfile -File tools/package-netlify.ps1"
+  },
+  "dependencies": {
+    "@netlify/blobs": "^11.1.7",
+    "phaser": "^3.90.0"
+  },
+  "devDependencies": {
+    "@netlify/functions": "^6.0.3",
+    "@types/node": "^24.10.0",
+    "typescript": "^5.9.3",
+    "vite": "^7.1.12",
+    "vitest": "^3.2.4"
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+*.tsbuildinfo
+.DS_Store
+coverage/
+.netlify-function-check/
+netlify-ready-game/
+netlify-ready-game.zip
+echoes-of-the-realm-source/
+echoes-of-the-realm-source.zip

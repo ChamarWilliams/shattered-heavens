@@ -1,0 +1,304 @@
+{
+  "image": "./tsukishiro-rei.png",
+  "alphaRequired": true,
+  "frames": [
+    {
+      "name": "idle-01",
+      "x": 0,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "idle-02",
+      "x": 128,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "idle-03",
+      "x": 256,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "idle-04",
+      "x": 384,
+      "y": 0,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-01",
+      "x": 0,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-02",
+      "x": 128,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-03",
+      "x": 256,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-04",
+      "x": 384,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-05",
+      "x": 512,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "move-06",
+      "x": 640,
+      "y": 128,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "attack-01",
+      "x": 0,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "attack-02",
+      "x": 128,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "attack-03",
+      "x": 256,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "attack-04",
+      "x": 384,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "attack-05",
+      "x": 512,
+      "y": 256,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-01",
+      "x": 0,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-02",
+      "x": 128,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-03",
+      "x": 256,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-04",
+      "x": 384,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-05",
+      "x": 512,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-06",
+      "x": 640,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-07",
+      "x": 768,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "ability-08",
+      "x": 896,
+      "y": 384,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "hurt-01",
+      "x": 0,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "hurt-02",
+      "x": 128,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "hurt-03",
+      "x": 256,
+      "y": 512,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-01",
+      "x": 0,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-02",
+      "x": 128,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-03",
+      "x": 256,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-04",
+      "x": 384,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-05",
+      "x": 512,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    },
+    {
+      "name": "death-06",
+      "x": 640,
+      "y": 640,
+      "width": 128,
+      "height": 128,
+      "pivotX": 64,
+      "pivotY": 124
+    }
+  ],
+  "validation": {
+    "approved": true,
+    "reviewedAt": "2026-10-26",
+    "notes": [
+      "Extracted without resampling from the user-approved 1536x1024 reference board.",
+      "Board headings are shifted; regions follow numbered groups and measured separators.",
+      "Source contains translucent colored effect backplates that were intentionally preserved.",
+      "Frame rectangles are 128x128 atlas cells; source art is centered at original pixel size."
+    ]
+  }
+}

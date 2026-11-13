@@ -1,0 +1,5665 @@
+{
+  "version": "0.7",
+  "status": "movement v7: explicit alternating-foot locomotion and clip-safe connected-component import",
+  "frameWidth": 384,
+  "frameHeight": 384,
+  "directions": [
+    "N",
+    "NE",
+    "E",
+    "SE",
+    "S",
+    "SW",
+    "W",
+    "NW"
+  ],
+  "heroes": {
+    "li_yunfeng": {
+      "idle": {
+        "frames": 4,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/idle/N.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/idle/NE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 107
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 107
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/idle/E.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 108
+              },
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 108
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/idle/SE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/idle/S.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 115
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 115
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/idle/SW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/idle/W.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              },
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/idle/NW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              },
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 109
+              }
+            ]
+          }
+        }
+      },
+      "move": {
+        "frames": 6,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/move/N.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 51.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": -2.0,
+                "y": 52.0,
+                "width": 116
+              },
+              {
+                "x": -2.0,
+                "y": 54.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              },
+              {
+                "x": -3.0,
+                "y": 49.0,
+                "width": 114
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/move/NE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -5.0,
+                "y": 34.0,
+                "width": 112
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 112
+              },
+              {
+                "x": -6.0,
+                "y": 34.0,
+                "width": 122
+              },
+              {
+                "x": -6.0,
+                "y": 36.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": -5.0,
+                "y": 32.0,
+                "width": 112
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/move/E.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": -5.5,
+                "y": 33.0,
+                "width": 117
+              },
+              {
+                "x": -5.5,
+                "y": 35.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": -3.5,
+                "y": 32.0,
+                "width": 117
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/move/SE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": -5.0,
+                "y": 31.0,
+                "width": 124
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 124
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 124
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 125
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/move/S.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 34.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              },
+              {
+                "x": 2.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": -1.0,
+                "y": 32.0,
+                "width": 116
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/move/SW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 5.0,
+                "y": 35.0,
+                "width": 124
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 124
+              },
+              {
+                "x": 5.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": 5.5,
+                "y": 34.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": 5.0,
+                "y": 33.0,
+                "width": 124
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/move/W.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 35.0,
+                "width": 118
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 118
+              },
+              {
+                "x": 3.0,
+                "y": 32.0,
+                "width": 120
+              },
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 120
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 120
+              },
+              {
+                "x": 6.0,
+                "y": 33.0,
+                "width": 118
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/move/NW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.5,
+                "y": 50.0,
+                "width": 111
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 111
+              },
+              {
+                "x": 3.0,
+                "y": 38.0,
+                "width": 126
+              },
+              {
+                "x": 3.0,
+                "y": 40.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              },
+              {
+                "x": 3.5,
+                "y": 48.0,
+                "width": 111
+              }
+            ]
+          }
+        }
+      },
+      "basic_attack": {
+        "frames": 5,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/N.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 103
+              },
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 89
+              },
+              {
+                "x": 2.5,
+                "y": 31.0,
+                "width": 89
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 103
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/NE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": -1.0,
+                "y": 36.0,
+                "width": 112
+              },
+              {
+                "x": 9.0,
+                "y": 36.0,
+                "width": 124
+              },
+              {
+                "x": 12.0,
+                "y": 34.0,
+                "width": 124
+              },
+              {
+                "x": -1.0,
+                "y": 36.0,
+                "width": 112
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/E.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": -8.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 21.5,
+                "y": 48.0,
+                "width": 157
+              },
+              {
+                "x": 24.5,
+                "y": 48.0,
+                "width": 157
+              },
+              {
+                "x": -8.0,
+                "y": 35.0,
+                "width": 136
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/SE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": -3.0,
+                "y": 35.0,
+                "width": 124
+              },
+              {
+                "x": 11.5,
+                "y": 44.0,
+                "width": 135
+              },
+              {
+                "x": 14.5,
+                "y": 46.0,
+                "width": 135
+              },
+              {
+                "x": -3.0,
+                "y": 35.0,
+                "width": 124
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/S.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": 1.5,
+                "y": 35.0,
+                "width": 107
+              },
+              {
+                "x": -2.0,
+                "y": 44.0,
+                "width": 94
+              },
+              {
+                "x": -2.0,
+                "y": 46.0,
+                "width": 94
+              },
+              {
+                "x": 1.5,
+                "y": 35.0,
+                "width": 107
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/SW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 10.0,
+                "y": 35.0,
+                "width": 122
+              },
+              {
+                "x": 10.0,
+                "y": 35.0,
+                "width": 162
+              },
+              {
+                "x": 7.0,
+                "y": 37.0,
+                "width": 162
+              },
+              {
+                "x": 10.0,
+                "y": 35.0,
+                "width": 122
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/W.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 8.0,
+                "y": 35.0,
+                "width": 140
+              },
+              {
+                "x": -32.5,
+                "y": 35.0,
+                "width": 217
+              },
+              {
+                "x": -35.5,
+                "y": 35.0,
+                "width": 217
+              },
+              {
+                "x": 8.0,
+                "y": 35.0,
+                "width": 140
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/basic_attack/NW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": -2.0,
+                "y": 36.0,
+                "width": 108
+              },
+              {
+                "x": -2.5,
+                "y": 36.0,
+                "width": 101
+              },
+              {
+                "x": -5.5,
+                "y": 34.0,
+                "width": 101
+              },
+              {
+                "x": -2.0,
+                "y": 36.0,
+                "width": 108
+              }
+            ]
+          }
+        }
+      },
+      "active_ability": {
+        "frames": 8,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/active_ability/N.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 119
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 119
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 119
+              },
+              {
+                "x": 3.5,
+                "y": 33.0,
+                "width": 111
+              },
+              {
+                "x": 3.5,
+                "y": 32.0,
+                "width": 111
+              },
+              {
+                "x": 3.5,
+                "y": 33.0,
+                "width": 111
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/active_ability/NE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": 7.5,
+                "y": 33.0,
+                "width": 105
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 105
+              },
+              {
+                "x": 7.5,
+                "y": 33.0,
+                "width": 105
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 6.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/active_ability/E.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": 4.5,
+                "y": 35.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              },
+              {
+                "x": 4.5,
+                "y": 35.0,
+                "width": 121
+              },
+              {
+                "x": 7.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": 9.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": 7.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/active_ability/SE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": 6.5,
+                "y": 35.0,
+                "width": 127
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/active_ability/S.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 120
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 120
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 120
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 117
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/active_ability/SW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 127
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -1.5,
+                "y": 34.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/active_ability/W.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 127
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 127
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 127
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": -5.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/active_ability/NW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 117
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 111
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 111
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 111
+              },
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              }
+            ]
+          }
+        }
+      },
+      "hurt": {
+        "frames": 3,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/hurt/N.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 2.0,
+                "y": 34.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/hurt/NE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": -2.0,
+                "y": 34.0,
+                "width": 130
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 130
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/hurt/E.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": -3.0,
+                "y": 33.0,
+                "width": 130
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 130
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/hurt/SE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/hurt/S.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": 6.5,
+                "y": 33.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/hurt/SW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/hurt/W.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 6.5,
+                "y": 34.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/hurt/NW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              }
+            ]
+          }
+        }
+      },
+      "death": {
+        "frames": 6,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/li_yunfeng/death/N.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 2.0,
+                "y": 34.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": -5.0,
+                "y": 40.0,
+                "width": 118
+              },
+              {
+                "x": -5.0,
+                "y": 40.0,
+                "width": 118
+              },
+              {
+                "x": -5.0,
+                "y": 40.0,
+                "width": 118
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/li_yunfeng/death/NE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 107
+              },
+              {
+                "x": -2.0,
+                "y": 34.0,
+                "width": 130
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 130
+              },
+              {
+                "x": -7.5,
+                "y": 40.0,
+                "width": 111
+              },
+              {
+                "x": -7.5,
+                "y": 40.0,
+                "width": 111
+              },
+              {
+                "x": -7.5,
+                "y": 40.0,
+                "width": 111
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/li_yunfeng/death/E.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -10.0,
+                "y": 33.0,
+                "width": 108
+              },
+              {
+                "x": -3.0,
+                "y": 33.0,
+                "width": 130
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 130
+              },
+              {
+                "x": -3.5,
+                "y": 39.0,
+                "width": 113
+              },
+              {
+                "x": -3.5,
+                "y": 39.0,
+                "width": 113
+              },
+              {
+                "x": -3.5,
+                "y": 39.0,
+                "width": 113
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/li_yunfeng/death/SE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 123
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 122
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/li_yunfeng/death/S.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 115
+              },
+              {
+                "x": 6.5,
+                "y": 33.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              },
+              {
+                "x": 4.0,
+                "y": 34.0,
+                "width": 124
+              },
+              {
+                "x": 4.0,
+                "y": 34.0,
+                "width": 124
+              },
+              {
+                "x": 4.0,
+                "y": 34.0,
+                "width": 124
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/li_yunfeng/death/SW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": 7.5,
+                "y": 35.0,
+                "width": 113
+              },
+              {
+                "x": 7.5,
+                "y": 35.0,
+                "width": 113
+              },
+              {
+                "x": 7.5,
+                "y": 35.0,
+                "width": 113
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/li_yunfeng/death/W.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 6.5,
+                "y": 34.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              },
+              {
+                "x": 7.5,
+                "y": 38.0,
+                "width": 121
+              },
+              {
+                "x": 7.5,
+                "y": 38.0,
+                "width": 121
+              },
+              {
+                "x": 7.5,
+                "y": 38.0,
+                "width": 121
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/li_yunfeng/death/NW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Li Yunfeng premium bespoke 8-direction v3",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 109
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": 12.5,
+                "y": 37.0,
+                "width": 113
+              },
+              {
+                "x": 12.5,
+                "y": 37.0,
+                "width": 113
+              },
+              {
+                "x": 12.5,
+                "y": 37.0,
+                "width": 113
+              }
+            ]
+          }
+        }
+      }
+    },
+    "seo_jiwon": {
+      "idle": {
+        "frames": 4,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/idle/N.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/idle/NE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/idle/E.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 105
+              },
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 105
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/idle/SE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 131
+              },
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 131
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/idle/S.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 132
+              },
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 132
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/idle/SW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 134
+              },
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 134
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/idle/W.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 97
+              },
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 97
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/idle/NW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              },
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              }
+            ]
+          }
+        }
+      },
+      "move": {
+        "frames": 8,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/move/N.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 119
+              },
+              {
+                "x": -7.0,
+                "y": 33.0,
+                "width": 134
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 129
+              },
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 124
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 3.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": 0.0,
+                "y": 33.0,
+                "width": 140
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 125
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/move/NE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": -12.0,
+                "y": 33.0,
+                "width": 156
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 138
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 143
+              },
+              {
+                "x": -6.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 137
+              },
+              {
+                "x": -7.5,
+                "y": 33.0,
+                "width": 143
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/move/E.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": -15.0,
+                "y": 33.0,
+                "width": 158
+              },
+              {
+                "x": -14.0,
+                "y": 33.0,
+                "width": 150
+              },
+              {
+                "x": -15.5,
+                "y": 33.0,
+                "width": 159
+              },
+              {
+                "x": -12.5,
+                "y": 33.0,
+                "width": 155
+              },
+              {
+                "x": -14.0,
+                "y": 33.0,
+                "width": 156
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 157
+              },
+              {
+                "x": -6.0,
+                "y": 33.0,
+                "width": 152
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/move/SE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 142
+              },
+              {
+                "x": -11.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 137
+              },
+              {
+                "x": -8.5,
+                "y": 33.0,
+                "width": 145
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 141
+              },
+              {
+                "x": -5.5,
+                "y": 33.0,
+                "width": 137
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 139
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/move/S.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 121
+              },
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 129
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": 0.0,
+                "y": 33.0,
+                "width": 124
+              },
+              {
+                "x": 5.0,
+                "y": 34.0,
+                "width": 128
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 142
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 127
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 125
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/move/SW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 12.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": 9.0,
+                "y": 33.0,
+                "width": 134
+              },
+              {
+                "x": 6.0,
+                "y": 33.0,
+                "width": 150
+              },
+              {
+                "x": 6.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 147
+              },
+              {
+                "x": 12.0,
+                "y": 33.0,
+                "width": 148
+              },
+              {
+                "x": 3.5,
+                "y": 34.0,
+                "width": 139
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/move/W.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.0,
+                "y": 33.0,
+                "width": 138
+              },
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 141
+              },
+              {
+                "x": 7.5,
+                "y": 33.0,
+                "width": 145
+              },
+              {
+                "x": 12.5,
+                "y": 33.0,
+                "width": 149
+              },
+              {
+                "x": 12.0,
+                "y": 33.0,
+                "width": 158
+              },
+              {
+                "x": 12.0,
+                "y": 33.0,
+                "width": 150
+              },
+              {
+                "x": 12.0,
+                "y": 33.0,
+                "width": 150
+              },
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 135
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/move/NW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 155
+              },
+              {
+                "x": 13.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": 10.0,
+                "y": 34.0,
+                "width": 154
+              },
+              {
+                "x": 10.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 16.0,
+                "y": 33.0,
+                "width": 154
+              },
+              {
+                "x": 11.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 3.5,
+                "y": 34.0,
+                "width": 133
+              }
+            ]
+          }
+        }
+      },
+      "basic_attack": {
+        "frames": 5,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/N.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 1.5,
+                "y": 39.0,
+                "width": 123
+              },
+              {
+                "x": 14.0,
+                "y": 45.0,
+                "width": 130
+              },
+              {
+                "x": 14.0,
+                "y": 43.0,
+                "width": 130
+              },
+              {
+                "x": 1.5,
+                "y": 39.0,
+                "width": 123
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/NE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -2.0,
+                "y": 38.0,
+                "width": 122
+              },
+              {
+                "x": 3.0,
+                "y": 35.0,
+                "width": 126
+              },
+              {
+                "x": 6.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": -2.0,
+                "y": 38.0,
+                "width": 122
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/E.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": -2.0,
+                "y": 40.0,
+                "width": 110
+              },
+              {
+                "x": 17.0,
+                "y": 45.0,
+                "width": 160
+              },
+              {
+                "x": 20.0,
+                "y": 45.0,
+                "width": 160
+              },
+              {
+                "x": -2.0,
+                "y": 40.0,
+                "width": 110
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/SE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -2.5,
+                "y": 39.0,
+                "width": 113
+              },
+              {
+                "x": 6.5,
+                "y": 45.0,
+                "width": 125
+              },
+              {
+                "x": 9.5,
+                "y": 47.0,
+                "width": 125
+              },
+              {
+                "x": -2.5,
+                "y": 39.0,
+                "width": 113
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/S.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": -1.0,
+                "y": 37.0,
+                "width": 116
+              },
+              {
+                "x": -3.0,
+                "y": 48.0,
+                "width": 108
+              },
+              {
+                "x": -3.0,
+                "y": 50.0,
+                "width": 108
+              },
+              {
+                "x": -1.0,
+                "y": 37.0,
+                "width": 116
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/SW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 4.0,
+                "y": 36.0,
+                "width": 116
+              },
+              {
+                "x": -4.5,
+                "y": 44.0,
+                "width": 121
+              },
+              {
+                "x": -7.5,
+                "y": 46.0,
+                "width": 121
+              },
+              {
+                "x": 4.0,
+                "y": 36.0,
+                "width": 116
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/W.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 3.0,
+                "y": 36.0,
+                "width": 108
+              },
+              {
+                "x": -14.5,
+                "y": 43.0,
+                "width": 161
+              },
+              {
+                "x": -17.5,
+                "y": 43.0,
+                "width": 161
+              },
+              {
+                "x": 3.0,
+                "y": 36.0,
+                "width": 108
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/basic_attack/NW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 115
+              },
+              {
+                "x": -1.0,
+                "y": 41.0,
+                "width": 124
+              },
+              {
+                "x": -4.0,
+                "y": 39.0,
+                "width": 124
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 115
+              }
+            ]
+          }
+        }
+      },
+      "active_ability": {
+        "frames": 8,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/active_ability/N.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 9.0,
+                "y": 35.0,
+                "width": 146
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 146
+              },
+              {
+                "x": 9.0,
+                "y": 35.0,
+                "width": 146
+              },
+              {
+                "x": 7.5,
+                "y": 54.0,
+                "width": 127
+              },
+              {
+                "x": 7.5,
+                "y": 53.0,
+                "width": 127
+              },
+              {
+                "x": 7.5,
+                "y": 54.0,
+                "width": 127
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/active_ability/NE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -8.5,
+                "y": 35.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 137
+              },
+              {
+                "x": -8.5,
+                "y": 35.0,
+                "width": 137
+              },
+              {
+                "x": 3.0,
+                "y": 48.0,
+                "width": 122
+              },
+              {
+                "x": 5.0,
+                "y": 47.0,
+                "width": 122
+              },
+              {
+                "x": 3.0,
+                "y": 48.0,
+                "width": 122
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/active_ability/E.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": 2.0,
+                "y": 34.0,
+                "width": 130
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 130
+              },
+              {
+                "x": 2.0,
+                "y": 34.0,
+                "width": 130
+              },
+              {
+                "x": 14.0,
+                "y": 50.0,
+                "width": 170
+              },
+              {
+                "x": 16.0,
+                "y": 50.0,
+                "width": 170
+              },
+              {
+                "x": 14.0,
+                "y": 50.0,
+                "width": 170
+              },
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/active_ability/SE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -9.5,
+                "y": 51.0,
+                "width": 151
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 151
+              },
+              {
+                "x": -9.5,
+                "y": 51.0,
+                "width": 151
+              },
+              {
+                "x": -14.0,
+                "y": 55.0,
+                "width": 144
+              },
+              {
+                "x": -12.0,
+                "y": 56.0,
+                "width": 144
+              },
+              {
+                "x": -14.0,
+                "y": 55.0,
+                "width": 144
+              },
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/active_ability/S.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": -3.5,
+                "y": 47.0,
+                "width": 139
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 139
+              },
+              {
+                "x": -3.5,
+                "y": 47.0,
+                "width": 139
+              },
+              {
+                "x": 1.5,
+                "y": 55.0,
+                "width": 123
+              },
+              {
+                "x": 1.5,
+                "y": 56.0,
+                "width": 123
+              },
+              {
+                "x": 1.5,
+                "y": 55.0,
+                "width": 123
+              },
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/active_ability/SW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 8.0,
+                "y": 36.0,
+                "width": 132
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 132
+              },
+              {
+                "x": 8.0,
+                "y": 36.0,
+                "width": 132
+              },
+              {
+                "x": 1.0,
+                "y": 58.0,
+                "width": 108
+              },
+              {
+                "x": -1.0,
+                "y": 59.0,
+                "width": 108
+              },
+              {
+                "x": 1.0,
+                "y": 58.0,
+                "width": 108
+              },
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/active_ability/W.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 8.5,
+                "y": 36.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              },
+              {
+                "x": 8.5,
+                "y": 36.0,
+                "width": 123
+              },
+              {
+                "x": -10.5,
+                "y": 48.0,
+                "width": 167
+              },
+              {
+                "x": -12.5,
+                "y": 48.0,
+                "width": 167
+              },
+              {
+                "x": -10.5,
+                "y": 48.0,
+                "width": 167
+              },
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/active_ability/NW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 1.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 136
+              },
+              {
+                "x": 1.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": -5.0,
+                "y": 51.0,
+                "width": 140
+              },
+              {
+                "x": -7.0,
+                "y": 50.0,
+                "width": 140
+              },
+              {
+                "x": -5.0,
+                "y": 51.0,
+                "width": 140
+              },
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              }
+            ]
+          }
+        }
+      },
+      "hurt": {
+        "frames": 3,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/hurt/N.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 12.5,
+                "y": 35.0,
+                "width": 135
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 135
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/hurt/NE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 133
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 133
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/hurt/E.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": -3.5,
+                "y": 34.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/hurt/SE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -6.0,
+                "y": 37.0,
+                "width": 110
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 110
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/hurt/S.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": -7.5,
+                "y": 38.0,
+                "width": 119
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 119
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/hurt/SW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 8.0,
+                "y": 37.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/hurt/W.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/hurt/NW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 12.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 127
+              }
+            ]
+          }
+        }
+      },
+      "death": {
+        "frames": 6,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/seo_jiwon/death/N.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 122
+              },
+              {
+                "x": 12.5,
+                "y": 35.0,
+                "width": 135
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 135
+              },
+              {
+                "x": 3.0,
+                "y": 35.0,
+                "width": 124
+              },
+              {
+                "x": 3.0,
+                "y": 35.0,
+                "width": 124
+              },
+              {
+                "x": 3.0,
+                "y": 35.0,
+                "width": 124
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/seo_jiwon/death/NE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 125
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 133
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 133
+              },
+              {
+                "x": -0.5,
+                "y": 39.0,
+                "width": 111
+              },
+              {
+                "x": -0.5,
+                "y": 39.0,
+                "width": 111
+              },
+              {
+                "x": -0.5,
+                "y": 39.0,
+                "width": 111
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/seo_jiwon/death/E.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 105
+              },
+              {
+                "x": -3.5,
+                "y": 34.0,
+                "width": 123
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 123
+              },
+              {
+                "x": -3.0,
+                "y": 37.0,
+                "width": 140
+              },
+              {
+                "x": -3.0,
+                "y": 37.0,
+                "width": 140
+              },
+              {
+                "x": -3.0,
+                "y": 37.0,
+                "width": 140
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/seo_jiwon/death/SE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 131
+              },
+              {
+                "x": -6.0,
+                "y": 37.0,
+                "width": 110
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 110
+              },
+              {
+                "x": -4.0,
+                "y": 38.0,
+                "width": 130
+              },
+              {
+                "x": -4.0,
+                "y": 38.0,
+                "width": 130
+              },
+              {
+                "x": -4.0,
+                "y": 38.0,
+                "width": 130
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/seo_jiwon/death/S.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -2.0,
+                "y": 33.0,
+                "width": 132
+              },
+              {
+                "x": -7.5,
+                "y": 38.0,
+                "width": 119
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 119
+              },
+              {
+                "x": 4.0,
+                "y": 42.0,
+                "width": 134
+              },
+              {
+                "x": 4.0,
+                "y": 42.0,
+                "width": 134
+              },
+              {
+                "x": 4.0,
+                "y": 42.0,
+                "width": 134
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/seo_jiwon/death/SW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 6.0,
+                "y": 36.0,
+                "width": 134
+              },
+              {
+                "x": 8.0,
+                "y": 37.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": 6.0,
+                "y": 38.0,
+                "width": 124
+              },
+              {
+                "x": 6.0,
+                "y": 38.0,
+                "width": 124
+              },
+              {
+                "x": 6.0,
+                "y": 38.0,
+                "width": 124
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/seo_jiwon/death/W.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 7.5,
+                "y": 34.0,
+                "width": 97
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              },
+              {
+                "x": 4.5,
+                "y": 39.0,
+                "width": 141
+              },
+              {
+                "x": 4.5,
+                "y": 39.0,
+                "width": 141
+              },
+              {
+                "x": 4.5,
+                "y": 39.0,
+                "width": 141
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/seo_jiwon/death/NW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 12.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 127
+              },
+              {
+                "x": 1.0,
+                "y": 36.0,
+                "width": 126
+              },
+              {
+                "x": 1.0,
+                "y": 36.0,
+                "width": 126
+              },
+              {
+                "x": 1.0,
+                "y": 36.0,
+                "width": 126
+              }
+            ]
+          }
+        }
+      }
+    },
+    "tsukishiro_rei": {
+      "idle": {
+        "frames": 4,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/idle/N.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              },
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/idle/NE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              },
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/idle/E.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 100
+              },
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 100
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/idle/SE.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 136
+              },
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 136
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/idle/S.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 137
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/idle/SW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 133
+              },
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 133
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/idle/W.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 102
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 102
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/idle/NW.png",
+            "frameCount": 4,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 129
+              }
+            ]
+          }
+        }
+      },
+      "move": {
+        "frames": 8,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/move/N.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 1.0,
+                "y": 33.0,
+                "width": 156
+              },
+              {
+                "x": 2.0,
+                "y": 33.0,
+                "width": 154
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": 2.0,
+                "y": 33.0,
+                "width": 154
+              },
+              {
+                "x": 2.0,
+                "y": 33.0,
+                "width": 156
+              },
+              {
+                "x": 2.5,
+                "y": 33.0,
+                "width": 157
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/move/NE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 136
+              },
+              {
+                "x": -5.5,
+                "y": 33.0,
+                "width": 139
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 140
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 140
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 135
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 143
+              },
+              {
+                "x": -2.0,
+                "y": 34.0,
+                "width": 140
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 140
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/move/E.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -7.5,
+                "y": 33.0,
+                "width": 139
+              },
+              {
+                "x": -5.5,
+                "y": 33.0,
+                "width": 145
+              },
+              {
+                "x": -8.0,
+                "y": 33.0,
+                "width": 142
+              },
+              {
+                "x": -4.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 136
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 138
+              },
+              {
+                "x": -8.0,
+                "y": 33.0,
+                "width": 138
+              },
+              {
+                "x": -6.5,
+                "y": 33.0,
+                "width": 147
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/move/SE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 139
+              },
+              {
+                "x": -5.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": -7.5,
+                "y": 33.0,
+                "width": 149
+              },
+              {
+                "x": -4.0,
+                "y": 33.0,
+                "width": 142
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 143
+              },
+              {
+                "x": -3.5,
+                "y": 33.0,
+                "width": 141
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/move/S.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 149
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": -0.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": -2.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": -1.5,
+                "y": 33.0,
+                "width": 159
+              },
+              {
+                "x": -1.0,
+                "y": 33.0,
+                "width": 156
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/move/SW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 142
+              },
+              {
+                "x": 5.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 3.0,
+                "y": 33.0,
+                "width": 144
+              },
+              {
+                "x": 5.0,
+                "y": 34.0,
+                "width": 142
+              },
+              {
+                "x": 6.5,
+                "y": 33.0,
+                "width": 157
+              },
+              {
+                "x": 8.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 8.0,
+                "y": 33.0,
+                "width": 150
+              },
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 143
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/move/W.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 149
+              },
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 145
+              },
+              {
+                "x": 5.5,
+                "y": 34.0,
+                "width": 149
+              },
+              {
+                "x": 6.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": 4.5,
+                "y": 33.0,
+                "width": 151
+              },
+              {
+                "x": 6.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": 7.0,
+                "y": 33.0,
+                "width": 150
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/move/NW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Movement v7 bespoke alternating-foot atlas",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 10.0,
+                "y": 33.0,
+                "width": 146
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 148
+              },
+              {
+                "x": 3.5,
+                "y": 33.0,
+                "width": 153
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 152
+              },
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 145
+              },
+              {
+                "x": 5.5,
+                "y": 33.0,
+                "width": 147
+              },
+              {
+                "x": 8.5,
+                "y": 34.0,
+                "width": 151
+              },
+              {
+                "x": 10.5,
+                "y": 33.0,
+                "width": 145
+              }
+            ]
+          }
+        }
+      },
+      "basic_attack": {
+        "frames": 5,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/N.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": -2.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": 11.0,
+                "y": 34.0,
+                "width": 150
+              },
+              {
+                "x": 11.0,
+                "y": 32.0,
+                "width": 150
+              },
+              {
+                "x": -2.5,
+                "y": 34.0,
+                "width": 127
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/NE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 125
+              },
+              {
+                "x": 2.0,
+                "y": 34.0,
+                "width": 154
+              },
+              {
+                "x": 5.0,
+                "y": 32.0,
+                "width": 154
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 125
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/E.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": -1.5,
+                "y": 37.0,
+                "width": 137
+              },
+              {
+                "x": 9.5,
+                "y": 36.0,
+                "width": 147
+              },
+              {
+                "x": 12.5,
+                "y": 36.0,
+                "width": 147
+              },
+              {
+                "x": -1.5,
+                "y": 37.0,
+                "width": 137
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/SE.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 1.0,
+                "y": 40.0,
+                "width": 126
+              },
+              {
+                "x": 4.5,
+                "y": 36.0,
+                "width": 135
+              },
+              {
+                "x": 7.5,
+                "y": 38.0,
+                "width": 135
+              },
+              {
+                "x": 1.0,
+                "y": 40.0,
+                "width": 126
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/S.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": -1.5,
+                "y": 34.0,
+                "width": 127
+              },
+              {
+                "x": 1.5,
+                "y": 36.0,
+                "width": 129
+              },
+              {
+                "x": 1.5,
+                "y": 38.0,
+                "width": 129
+              },
+              {
+                "x": -1.5,
+                "y": 34.0,
+                "width": 127
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/SW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": -1.5,
+                "y": 41.0,
+                "width": 123
+              },
+              {
+                "x": -4.5,
+                "y": 43.0,
+                "width": 123
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/W.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": -3.5,
+                "y": 38.0,
+                "width": 125
+              },
+              {
+                "x": -8.5,
+                "y": 36.0,
+                "width": 147
+              },
+              {
+                "x": -11.5,
+                "y": 36.0,
+                "width": 147
+              },
+              {
+                "x": -3.5,
+                "y": 38.0,
+                "width": 125
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/basic_attack/NW.png",
+            "frameCount": 5,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 1.5,
+                "y": 35.0,
+                "width": 135
+              },
+              {
+                "x": -1.5,
+                "y": 36.0,
+                "width": 137
+              },
+              {
+                "x": -4.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": 1.5,
+                "y": 35.0,
+                "width": 135
+              }
+            ]
+          }
+        }
+      },
+      "active_ability": {
+        "frames": 8,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/N.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": 1.0,
+                "y": 34.0,
+                "width": 122
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 122
+              },
+              {
+                "x": 1.0,
+                "y": 34.0,
+                "width": 122
+              },
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": 1.5,
+                "y": 33.0,
+                "width": 143
+              },
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/NE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 118
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 118
+              },
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 118
+              },
+              {
+                "x": 5.0,
+                "y": 34.0,
+                "width": 148
+              },
+              {
+                "x": 7.0,
+                "y": 33.0,
+                "width": 148
+              },
+              {
+                "x": 5.0,
+                "y": 34.0,
+                "width": 148
+              },
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/E.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": -3.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": -3.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 4.0,
+                "y": 35.0,
+                "width": 148
+              },
+              {
+                "x": 6.0,
+                "y": 35.0,
+                "width": 148
+              },
+              {
+                "x": 4.0,
+                "y": 35.0,
+                "width": 148
+              },
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/SE.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": 0.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 125
+              },
+              {
+                "x": 0.5,
+                "y": 35.0,
+                "width": 125
+              },
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 146
+              },
+              {
+                "x": 5.0,
+                "y": 35.0,
+                "width": 146
+              },
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 146
+              },
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/S.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": 0.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 33.0,
+                "width": 126
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 33.0,
+                "width": 137
+              },
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/SW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 1.0,
+                "y": 35.0,
+                "width": 126
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 126
+              },
+              {
+                "x": 1.0,
+                "y": 35.0,
+                "width": 126
+              },
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 140
+              },
+              {
+                "x": 0.0,
+                "y": 36.0,
+                "width": 140
+              },
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 140
+              },
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/W.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": 4.0,
+                "y": 34.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": 4.0,
+                "y": 34.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 35.0,
+                "width": 144
+              },
+              {
+                "x": -2.0,
+                "y": 35.0,
+                "width": 144
+              },
+              {
+                "x": 0.0,
+                "y": 35.0,
+                "width": 144
+              },
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/active_ability/NW.png",
+            "frameCount": 8,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 117
+              },
+              {
+                "x": 4.5,
+                "y": 34.0,
+                "width": 117
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": -2.5,
+                "y": 33.0,
+                "width": 143
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              }
+            ]
+          }
+        }
+      },
+      "hurt": {
+        "frames": 3,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/N.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": 0.5,
+                "y": 35.0,
+                "width": 135
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 135
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/NE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": -3.0,
+                "y": 37.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/E.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": -5.0,
+                "y": 37.0,
+                "width": 120
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 120
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/SE.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": -5.5,
+                "y": 39.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/S.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": -3.0,
+                "y": 33.0,
+                "width": 124
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 124
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/SW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 5.0,
+                "y": 38.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/W.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": 5.0,
+                "y": 36.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/hurt/NW.png",
+            "frameCount": 3,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 9.5,
+                "y": 36.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              }
+            ]
+          }
+        }
+      },
+      "death": {
+        "frames": 6,
+        "directions": {
+          "N": {
+            "file": "assets/heroes/tsukishiro_rei/death/N.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 3.0,
+                "y": 34.0,
+                "width": 126
+              },
+              {
+                "x": 0.5,
+                "y": 35.0,
+                "width": 135
+              },
+              {
+                "x": -0.5,
+                "y": 32.0,
+                "width": 135
+              },
+              {
+                "x": 1.5,
+                "y": 42.0,
+                "width": 129
+              },
+              {
+                "x": 1.5,
+                "y": 42.0,
+                "width": 129
+              },
+              {
+                "x": 1.5,
+                "y": 42.0,
+                "width": 129
+              }
+            ]
+          },
+          "NE": {
+            "file": "assets/heroes/tsukishiro_rei/death/NE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 1.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": -3.0,
+                "y": 37.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              },
+              {
+                "x": -5.5,
+                "y": 40.0,
+                "width": 153
+              },
+              {
+                "x": -5.5,
+                "y": 40.0,
+                "width": 153
+              },
+              {
+                "x": -5.5,
+                "y": 40.0,
+                "width": 153
+              }
+            ]
+          },
+          "E": {
+            "file": "assets/heroes/tsukishiro_rei/death/E.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": -3.0,
+                "y": 34.0,
+                "width": 100
+              },
+              {
+                "x": -5.0,
+                "y": 37.0,
+                "width": 120
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 120
+              },
+              {
+                "x": -5.5,
+                "y": 34.0,
+                "width": 157
+              },
+              {
+                "x": -5.5,
+                "y": 34.0,
+                "width": 157
+              },
+              {
+                "x": -5.5,
+                "y": 34.0,
+                "width": 157
+              }
+            ]
+          },
+          "SE": {
+            "file": "assets/heroes/tsukishiro_rei/death/SE.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.0,
+                "y": 35.0,
+                "width": 136
+              },
+              {
+                "x": -5.5,
+                "y": 39.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              },
+              {
+                "x": -7.0,
+                "y": 35.0,
+                "width": 144
+              },
+              {
+                "x": -7.0,
+                "y": 35.0,
+                "width": 144
+              },
+              {
+                "x": -7.0,
+                "y": 35.0,
+                "width": 144
+              }
+            ]
+          },
+          "S": {
+            "file": "assets/heroes/tsukishiro_rei/death/S.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 0.5,
+                "y": 34.0,
+                "width": 137
+              },
+              {
+                "x": -3.0,
+                "y": 33.0,
+                "width": 124
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 124
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 143
+              },
+              {
+                "x": -0.5,
+                "y": 34.0,
+                "width": 143
+              }
+            ]
+          },
+          "SW": {
+            "file": "assets/heroes/tsukishiro_rei/death/SW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 35.0,
+                "width": 133
+              },
+              {
+                "x": 5.0,
+                "y": 38.0,
+                "width": 114
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 114
+              },
+              {
+                "x": 7.0,
+                "y": 35.0,
+                "width": 142
+              },
+              {
+                "x": 7.0,
+                "y": 35.0,
+                "width": 142
+              },
+              {
+                "x": 7.0,
+                "y": 35.0,
+                "width": 142
+              }
+            ]
+          },
+          "W": {
+            "file": "assets/heroes/tsukishiro_rei/death/W.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 4.0,
+                "y": 33.0,
+                "width": 102
+              },
+              {
+                "x": 5.0,
+                "y": 36.0,
+                "width": 116
+              },
+              {
+                "x": 0.0,
+                "y": 32.0,
+                "width": 116
+              },
+              {
+                "x": 12.5,
+                "y": 36.0,
+                "width": 165
+              },
+              {
+                "x": 12.5,
+                "y": 36.0,
+                "width": 165
+              },
+              {
+                "x": 12.5,
+                "y": 36.0,
+                "width": 165
+              }
+            ]
+          },
+          "NW": {
+            "file": "assets/heroes/tsukishiro_rei/death/NW.png",
+            "frameCount": 6,
+            "authenticDirectionalArtwork": true,
+            "source": "Bespoke heroes authentic 8-direction v4",
+            "reviewRequired": false,
+            "shadowAnchors": [
+              {
+                "x": 2.5,
+                "y": 34.0,
+                "width": 129
+              },
+              {
+                "x": 9.5,
+                "y": 36.0,
+                "width": 121
+              },
+              {
+                "x": 0.5,
+                "y": 32.0,
+                "width": 121
+              },
+              {
+                "x": 6.5,
+                "y": 37.0,
+                "width": 149
+              },
+              {
+                "x": 6.5,
+                "y": 37.0,
+                "width": 149
+              },
+              {
+                "x": 6.5,
+                "y": 37.0,
+                "width": 149
+              }
+            ]
+          }
+        }
+      }
+    }
+  },
+  "effects": {
+    "flying_sword": {
+      "path": "assets/vfx/flying_sword.png",
+      "width": 96,
+      "height": 64,
+      "frames": 4,
+      "fps": 12,
+      "loop": true
+    },
+    "flying_sword_trail": {
+      "path": "assets/vfx/flying_sword_trail.png",
+      "width": 128,
+      "height": 64,
+      "frames": 4,
+      "fps": 14,
+      "loop": true
+    },
+    "flying_sword_summon": {
+      "path": "assets/vfx/flying_sword_summon.png",
+      "width": 160,
+      "height": 160,
+      "frames": 6,
+      "fps": 18,
+      "loop": false
+    },
+    "flying_sword_impact": {
+      "path": "assets/vfx/flying_sword_impact.png",
+      "width": 160,
+      "height": 160,
+      "frames": 6,
+      "fps": 20,
+      "loop": false
+    },
+    "foxfire_projectile": {
+      "path": "assets/vfx/foxfire_projectile.png",
+      "width": 64,
+      "height": 64,
+      "frames": 4,
+      "fps": 10,
+      "loop": true
+    },
+    "foxfire_summon": {
+      "path": "assets/vfx/foxfire_summon.png",
+      "width": 128,
+      "height": 128,
+      "frames": 6,
+      "fps": 16,
+      "loop": false
+    },
+    "foxfire_impact": {
+      "path": "assets/vfx/foxfire_impact.png",
+      "width": 128,
+      "height": 128,
+      "frames": 6,
+      "fps": 16,
+      "loop": false
+    },
+    "sectless_slash": {
+      "path": "assets/vfx/sectless_slash.png",
+      "width": 160,
+      "height": 160,
+      "frames": 5,
+      "fps": 22,
+      "loop": false
+    },
+    "rei_fire_fox_summon": {
+      "path": "assets/vfx/rei_fire_fox_summon.png",
+      "width": 192,
+      "height": 160,
+      "frames": 6,
+      "fps": 14,
+      "loop": false
+    },
+    "rei_foxfire_bolt": {
+      "path": "assets/vfx/rei_foxfire_bolt.png",
+      "width": 128,
+      "height": 80,
+      "frames": 4,
+      "fps": 16,
+      "loop": true
+    },
+    "seo_void_shear": {
+      "path": "assets/vfx/seo_void_shear.png",
+      "width": 224,
+      "height": 192,
+      "frames": 6,
+      "fps": 24,
+      "loop": false
+    },
+    "seo_void_shear_impact": {
+      "path": "assets/vfx/seo_void_shear_impact.png",
+      "width": 192,
+      "height": 192,
+      "frames": 6,
+      "fps": 22,
+      "loop": false
+    },
+    "seo_nightfold_trail": {
+      "path": "assets/vfx/seo_nightfold_trail.png",
+      "width": 224,
+      "height": 128,
+      "frames": 6,
+      "fps": 22,
+      "loop": false
+    },
+    "seo_nightfold_fold": {
+      "path": "assets/vfx/seo_nightfold_fold.png",
+      "width": 192,
+      "height": 192,
+      "frames": 6,
+      "fps": 22,
+      "loop": false
+    },
+    "rei_moonfox_hit": {
+      "path": "assets/vfx/rei_moonfox_hit.png",
+      "width": 192,
+      "height": 192,
+      "frames": 6,
+      "fps": 24,
+      "loop": false
+    },
+    "seo_heartbreak_hit": {
+      "path": "assets/vfx/seo_heartbreak_hit.png",
+      "width": 192,
+      "height": 192,
+      "frames": 6,
+      "fps": 24,
+      "loop": false
+    }
+  },
+  "familiars": {
+    "rei_fire_fox": {
+      "frameWidth": 256,
+      "frameHeight": 256,
+      "states": {
+        "idle": {
+          "frames": 4,
+          "fps": 7,
+          "loop": true,
+          "directions": {
+            "N": {
+              "file": "assets/familiars/rei_fire_fox/idle/N.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NE": {
+              "file": "assets/familiars/rei_fire_fox/idle/NE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "E": {
+              "file": "assets/familiars/rei_fire_fox/idle/E.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SE": {
+              "file": "assets/familiars/rei_fire_fox/idle/SE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "S": {
+              "file": "assets/familiars/rei_fire_fox/idle/S.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SW": {
+              "file": "assets/familiars/rei_fire_fox/idle/SW.png",
+              "authenticDirectionalArtwork": true
+            },
+            "W": {
+              "file": "assets/familiars/rei_fire_fox/idle/W.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NW": {
+              "file": "assets/familiars/rei_fire_fox/idle/NW.png",
+              "authenticDirectionalArtwork": true
+            }
+          }
+        },
+        "move": {
+          "frames": 6,
+          "fps": 12,
+          "loop": true,
+          "directions": {
+            "N": {
+              "file": "assets/familiars/rei_fire_fox/move/N.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NE": {
+              "file": "assets/familiars/rei_fire_fox/move/NE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "E": {
+              "file": "assets/familiars/rei_fire_fox/move/E.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SE": {
+              "file": "assets/familiars/rei_fire_fox/move/SE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "S": {
+              "file": "assets/familiars/rei_fire_fox/move/S.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SW": {
+              "file": "assets/familiars/rei_fire_fox/move/SW.png",
+              "authenticDirectionalArtwork": true
+            },
+            "W": {
+              "file": "assets/familiars/rei_fire_fox/move/W.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NW": {
+              "file": "assets/familiars/rei_fire_fox/move/NW.png",
+              "authenticDirectionalArtwork": true
+            }
+          }
+        },
+        "attack": {
+          "frames": 4,
+          "fps": 16,
+          "loop": false,
+          "directions": {
+            "N": {
+              "file": "assets/familiars/rei_fire_fox/attack/N.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NE": {
+              "file": "assets/familiars/rei_fire_fox/attack/NE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "E": {
+              "file": "assets/familiars/rei_fire_fox/attack/E.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SE": {
+              "file": "assets/familiars/rei_fire_fox/attack/SE.png",
+              "authenticDirectionalArtwork": true
+            },
+            "S": {
+              "file": "assets/familiars/rei_fire_fox/attack/S.png",
+              "authenticDirectionalArtwork": true
+            },
+            "SW": {
+              "file": "assets/familiars/rei_fire_fox/attack/SW.png",
+              "authenticDirectionalArtwork": true
+            },
+            "W": {
+              "file": "assets/familiars/rei_fire_fox/attack/W.png",
+              "authenticDirectionalArtwork": true
+            },
+            "NW": {
+              "file": "assets/familiars/rei_fire_fox/attack/NW.png",
+              "authenticDirectionalArtwork": true
+            }
+          }
+        }
+      }
+    }
+  }
+}

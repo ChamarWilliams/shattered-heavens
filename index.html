@@ -1,0 +1,230 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#07100f" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cpath fill='%23d8bb73' d='M15 2h2v19h-2zM9 21h14v2H9zM12 24h8l-4 6z'/%3E%3C/svg%3E" />
+    <title>Shattered Heavens</title>
+    <meta name="description" content="A cultivation-fantasy action roguelite with online co-op for 1–3 players. Play free in your browser." />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Shattered Heavens" />
+    <meta property="og:title" content="Shattered Heavens" />
+    <meta property="og:description" content="A cultivation-fantasy action roguelite with online co-op for 1–3 players. Play free in your browser." />
+    <meta property="og:url" content="https://shattered-heavens.netlify.app/" />
+    <meta property="og:image" content="https://shattered-heavens.netlify.app/social-cover.jpg" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content="Shattered Heavens: the three heroes beneath the game's logo, with the words Online co-op, 1–3 players." />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Shattered Heavens" />
+    <meta name="twitter:description" content="A cultivation-fantasy action roguelite with online co-op for 1–3 players. Play free in your browser." />
+    <meta name="twitter:image" content="https://shattered-heavens.netlify.app/social-cover.jpg" />
+    <style>.boot-screen{position:fixed;inset:0;z-index:1000;background:#040807;color:#d5b66c}.boot-screen[hidden]{display:none}</style>
+  </head>
+  <body>
+    <div id="boot-screen" class="boot-screen" aria-live="polite">
+      <div class="boot-stage">
+        <span class="boot-crest" aria-hidden="true"><b>天</b></span>
+        <p class="boot-wordmark">Shattered <small>·</small> Heavens</p>
+        <div class="boot-track" aria-hidden="true">
+          <i class="boot-fox"></i>
+          <div class="boot-bar"><i id="boot-fill"></i></div>
+        </div>
+        <div class="boot-status" role="progressbar" aria-label="Loading" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="boot-progress">
+          <span id="boot-status-text">Gathering echoes</span><b id="boot-percent">0%</b>
+        </div>
+        <button id="boot-prompt" class="boot-prompt" type="button" hidden><span class="boot-prompt-keys">Press any key</span><span class="boot-prompt-touch">Tap to begin</span></button>
+      </div>
+      <p class="boot-tip"><b>TIP</b> <span id="boot-tip">Space attacks, E unleashes your ability.</span></p>
+    </div>
+    <div id="app-shell">
+      <section class="screen title-screen is-active" data-screen="title" aria-labelledby="game-title">
+        <div class="title-backdrop" aria-hidden="true"></div>
+        <div class="title-gate-glow" aria-hidden="true"></div>
+        <div class="title-embers" aria-hidden="true"></div>
+        <div class="title-vignette" aria-hidden="true"></div>
+        <header class="title-topbar">
+          <div class="build-chip"><span></span> ONLINE CO-OP · 1–3 PLAYERS</div>
+        </header>
+        <div class="title-logo">
+          <span class="title-crest" aria-hidden="true"><b>天</b></span>
+          <h1 id="game-title"><span>Shattered</span> Heavens</h1>
+          <p class="title-kicker">WHEN THE NINE HEAVENS FELL, THEIR LEGENDS ECHOED</p>
+        </div>
+        <div class="title-party" aria-hidden="true">
+          <i class="title-sprite title-sprite-seo"></i>
+          <i class="title-sprite title-sprite-li"></i>
+          <i class="title-sprite title-sprite-rei"></i>
+          <i class="title-sprite title-sprite-fox"></i>
+        </div>
+        <nav class="title-menu" aria-label="Main menu">
+          <button class="menu-button" data-action="continue-run" type="button" hidden><span>Continue</span><small id="continue-detail">Resume your expedition</small></button>
+          <button class="menu-button menu-button-primary" data-action="open-lobby" type="button"><span>Play</span><small>New expedition</small></button>
+          <button class="menu-button" data-action="open-coop" type="button"><span>Online Co-op</span><small>Up to three wanderers · room code</small></button>
+          <button class="menu-button" data-action="open-settings" type="button"><span>Settings</span><small>Audio &amp; display</small></button>
+        </nav>
+        <footer class="title-footer">
+          <span class="title-hints title-hints-keys"><kbd>↑</kbd><kbd>↓</kbd> Select <kbd>Enter</kbd> Confirm</span>
+          <span class="title-hints title-hints-touch">Tap to choose</span>
+          <span>BUILD 0.1.0</span>
+        </footer>
+      </section>
+
+      <section class="screen lobby-screen" data-screen="lobby" aria-labelledby="lobby-title">
+        <header class="lobby-header">
+          <button class="brand-button" data-action="back-title" type="button" aria-label="Return to title screen">
+            <span aria-hidden="true">↩</span>
+          </button>
+          <div class="lobby-status">
+            <span class="resource"><i aria-hidden="true">◆</i><b>0</b></span>
+            <button class="icon-button" data-action="open-settings" type="button" aria-label="Open settings">Ⅱ</button>
+          </div>
+        </header>
+        <main class="realm-hall">
+          <h2 id="lobby-title" class="visually-hidden">Wayfarers' Pavilion</h2>
+          <section class="hall-world" aria-label="Playable Wayfarers' Pavilion">
+            <div id="lobby-game" aria-label="Move Li Yunfeng through the Wayfarers' Pavilion and talk to the other heroes"></div>
+
+            <div class="mobile-player-card">
+              <img id="selected-portrait" src="/assets/ui/hero-portraits/li-yunfeng.png" alt="Li Yunfeng" />
+              <div class="player-vitals">
+                <b id="selected-name">Li Yunfeng</b>
+                <small id="player-form" class="player-form"></small>
+                <div class="vital-bar health-bar"><i></i><span>7 / 7</span></div>
+                <div class="vital-bar spirit-bar"><i></i><span>READY</span></div>
+                <div class="player-loot"><span id="player-resonance" class="resonance-chip" hidden>TRIBULATION 1</span><div id="player-relics" class="player-relics"></div></div>
+              </div>
+              <div class="player-meta"><small id="selected-school">THE SECTLESS PATH</small><span id="selected-epithet">The Sword Without a Sect</span><div class="hero-tags" id="selected-tags"><span>MELEE</span><span>CONTROL</span><span>SEALS</span></div></div>
+            </div>
+
+            <div class="touch-controls" aria-label="Lobby movement controls">
+              <div class="touch-stick">
+                <button data-lobby-move="N" type="button" aria-label="Move up">▲</button>
+                <button data-lobby-move="W" type="button" aria-label="Move left">◀</button>
+                <button data-lobby-move="S" type="button" aria-label="Move down">▼</button>
+                <button data-lobby-move="E" type="button" aria-label="Move right">▶</button>
+              </div>
+              <button id="lobby-interact" class="interact-button" type="button"><span>✦</span><small>TALK</small></button>
+              <button id="dungeon-ability" class="interact-button ability-button" type="button" hidden><span>界</span><small>ABILITY</small></button>
+              <button id="dungeon-use" class="interact-button use-button" type="button" hidden><span>✋</span><small>USE</small></button>
+            </div>
+
+            <aside id="tutorial-card" class="tutorial-card" hidden aria-live="polite">
+              <p class="overline">Guidance</p>
+              <h3 id="tutorial-title"></h3>
+              <p id="tutorial-text"></p>
+              <div class="tutorial-actions"><button id="tutorial-skip" type="button">Skip tutorial</button><button id="tutorial-ok" class="confirm-button" type="button">Got it</button></div>
+            </aside>
+
+            <div class="lobby-state" aria-hidden="true">
+              <p id="selected-description">A wandering cultivator who commands four spirit blades and recalls the seals they leave behind.</p>
+              <span id="selected-basic">Sectless Edge</span><span id="selected-ability">Fourfold Flying Sword</span>
+              <img id="party-portrait" src="/assets/ui/hero-portraits/li-yunfeng.png" alt="" />
+              <b id="party-player-name">Wanderer</b><small id="party-hero-name">Li Yunfeng</small>
+              <button class="hero-card is-selected" data-hero="li-yunfeng" type="button" aria-pressed="true"><i>SELECTED</i></button>
+              <button class="hero-card" data-hero="seo-jiwon" type="button" aria-pressed="false"><i>SELECT</i></button>
+              <button class="hero-card" data-hero="tsukishiro-rei" type="button" aria-pressed="false"><i>SELECT</i></button>
+            </div>
+          </section>
+        </main>
+      </section>
+
+      <section class="screen lab-screen" data-screen="lab" aria-label="Combat laboratory">
+        <div id="app">
+          <header class="masthead">
+            <div><p class="eyebrow">SHATTERED HEAVENS / COMBAT DEVELOPMENT</p><h1>Character Animation Lab</h1></div>
+            <div class="lab-actions"><button data-action="back-lobby" type="button">← Lobby</button><div class="status"><span></span> DEBUG BUILD</div></div>
+          </header>
+          <main class="lab-layout">
+            <section class="stage-card">
+              <div class="stage-heading"><div><p class="kicker">THREE-HERO COMBAT LAB</p><h2>Directional Animation &amp; Ability Test Room</h2></div><p class="asset-warning">ALL HEROES / COMBAT POLISH V6<br><span>Four-Sword Rack / Heartbreak Rend / Moonfox Bite</span></p></div>
+              <div id="game" aria-label="Playable character test room"></div>
+              <div class="key-strip" aria-label="Controls"><span><kbd>WASD</kbd> Move</span><span><kbd>SPACE</kbd> Attack</span><span><kbd>E</kbd> Ability</span><span><kbd>H</kbd> Hurt</span><span><kbd>K</kbd> Death</span><span><kbd>R</kbd> Reset</span><span><kbd>B</kbd> Debug</span></div>
+            </section>
+            <aside class="inspector">
+              <div class="panel-title"><span>ANIMATION VIEWER</span><span id="frame-readout">FRAME 01 / 08</span></div>
+              <label>Character<select id="character-select"></select></label><label>Animation<select id="animation-select"></select></label><label>Facing direction<select id="direction-select"></select></label>
+              <label>Playback speed <output id="speed-output">1.00×</output><input id="speed-range" type="range" min="0.25" max="2" value="1" step="0.05" /></label>
+              <div class="transport"><button id="play-toggle" type="button">Pause</button><button id="restart-animation" type="button">Restart</button></div><div class="divider"></div>
+              <dl class="telemetry"><div><dt>State</dt><dd id="state-readout">IDLE</dd></div><div><dt>Facing</dt><dd id="facing-readout">SOUTH</dd></div><div><dt>Movement</dt><dd id="movement-readout">S</dd></div><div><dt>Asset</dt><dd id="asset-readout">DEBUG</dd></div><div><dt>Direction art</dt><dd id="direction-source-readout">PLACEHOLDER</dd></div><div><dt>Projectiles</dt><dd id="projectile-readout">0</dd></div><div><dt>Summons</dt><dd id="summon-readout">0</dd></div><div><dt>Sectless seals</dt><dd id="seal-readout">0</dd></div><div><dt>Moonfire stacks</dt><dd id="moonfire-readout">0</dd></div><div><dt>Aim</dt><dd id="aim-readout">0°</dd></div><div><dt>Damage</dt><dd id="damage-readout">0</dd></div></dl>
+              <p class="note">Viewer controls preview the selected animation independently. Keyboard input drives the test-room actor through the same state definitions.</p>
+            </aside>
+          </main>
+        </div>
+      </section>
+    </div>
+
+    <dialog id="settings-dialog" class="realm-dialog">
+      <form method="dialog">
+        <div class="dialog-heading"><div><p class="overline">SYSTEM</p><h2>Settings</h2></div><button value="cancel" aria-label="Close settings">×</button></div>
+        <label class="identity-setting"><span><b>Wanderer name</b><small>Shown to your future party</small></span><input id="wanderer-name" type="text" maxlength="18" value="Wanderer" autocomplete="nickname" spellcheck="false" /></label>
+        <label class="setting-row"><span><b>Master volume</b><small>Overall game audio</small></span><output id="master-volume-output">70%</output><input id="master-volume" type="range" min="0" max="100" value="70" /></label>
+        <label class="setting-row"><span><b>Effects volume</b><small>Combat and interface effects</small></span><output id="effects-volume-output">85%</output><input id="effects-volume" type="range" min="0" max="100" value="85" /></label>
+        <label class="setting-row"><span><b>Music volume</b><small>Themes for the Pavilion, realms and battles</small></span><output id="music-volume-output">60%</output><input id="music-volume" type="range" min="0" max="100" value="60" /></label>
+        <label class="toggle-row"><span><b>Reduce motion</b><small>Limit menu atmosphere movement</small></span><input id="reduce-motion" type="checkbox" /></label>
+        <label class="toggle-row"><span><b>Damage numbers</b><small>Show combat damage feedback</small></span><input id="damage-numbers" type="checkbox" checked /></label>
+        <p class="settings-section">Guidance</p>
+        <label class="toggle-row"><span><b>Tutorial hints</b><small>First-room practice and one-time tips</small></span><input id="tutorial-hints" type="checkbox" checked /></label>
+        <div class="choice-row"><span><b>Replay the tutorial</b><small>Show every hint again, practice included</small></span><button id="tutorial-replay" class="small-button" type="button">Replay</button></div>
+        <p class="settings-section">Accessibility</p>
+        <label class="toggle-row"><span><b>Colour-blind-safe warnings</b><small>Danger zones in black and white with stripes and thick outlines</small></span><input id="accessible-warnings" type="checkbox" /></label>
+        <label class="choice-row"><span><b>Screen shake</b><small>Camera shake and hit kicks</small></span><select id="screen-shake"><option value="1">Full</option><option value="0.5">Low</option><option value="0">Off</option></select></label>
+        <label class="choice-row"><span><b>Text size</b><small>Menus, prompts and combat text</small></span><select id="text-scale"><option value="1">Normal</option><option value="1.15">Large</option><option value="1.3">Largest</option></select></label>
+        <div class="dialog-actions"><button id="fullscreen-toggle" value="none" type="button">Toggle fullscreen</button><button class="confirm-button" value="default">Save settings</button></div>
+      </form>
+    </dialog>
+    <dialog id="coop-dialog" class="realm-dialog coop-dialog">
+      <form method="dialog">
+        <div class="dialog-heading"><div><p class="overline">CROSS-REALM LINK</p><h2>Party Expedition</h2></div><button value="cancel" aria-label="Close co-op menu">×</button></div>
+        <p class="coop-intro">Create a private room or enter a six-character code from another device. Up to three wanderers gather in the Pavilion, and any of you may play the same hero. The one who created the room leads everyone through the Realm Gate; the realms grow tougher with every extra wanderer.</p>
+        <div class="coop-actions-grid">
+          <section><small>HOST</small><b>Open a private realm</b><button id="coop-host" class="confirm-button" type="button">Create room</button></section>
+          <section><small>JOIN</small><b>Enter a room code</b><input id="coop-room-code" type="text" maxlength="6" autocomplete="off" spellcheck="false" inputmode="text" placeholder="ABC234" aria-label="Room code" /><button id="coop-join" type="button">Join room</button></section>
+        </div>
+        <div id="coop-room" class="coop-room" hidden>
+          <small>PRIVATE REALM</small><strong id="coop-room-code-display">------</strong><button id="coop-copy-code" type="button">Copy code</button>
+          <div id="coop-party" class="coop-party" aria-live="polite"></div>
+        </div>
+        <p id="coop-status" class="coop-status" role="status" aria-live="polite">Choose host or join.</p>
+        <div class="dialog-actions"><button id="coop-leave" type="button" hidden>Leave room</button><button id="coop-enter" class="confirm-button" type="button" hidden>Enter the Pavilion</button></div>
+      </form>
+    </dialog>
+    <dialog id="hall-shop-dialog" class="realm-dialog shop-dialog">
+      <form method="dialog">
+        <div class="dialog-heading"><div><p class="overline" id="shop-overline">WAYFARERS' PAVILION</p><h2 id="shop-title">Spirit Forge</h2></div><button value="cancel" aria-label="Close">×</button></div>
+        <p class="shop-intro" id="shop-intro"></p>
+        <p class="shop-purse"><i aria-hidden="true">◆</i> <b id="shop-shards">0</b> Spirit Stones</p>
+        <div class="shop-offers" id="shop-offers"></div>
+        <div class="dialog-actions"><button class="confirm-button" value="default">Done</button></div>
+      </form>
+    </dialog>
+    <dialog id="ascension-dialog" class="realm-dialog ascension-dialog">
+      <form method="dialog">
+        <div class="dialog-heading"><div><p class="overline">WAYFARERS' PAVILION / ASCENSION SHRINE</p><h2>Ascension</h2></div><button value="cancel" aria-label="Close">×</button></div>
+        <div id="ascension-body" class="ascension-body"></div>
+        <div class="dialog-actions"><button class="confirm-button" value="default">Done</button></div>
+      </form>
+    </dialog>
+    <dialog id="archive-dialog" class="realm-dialog archive-dialog">
+      <form method="dialog">
+        <div class="dialog-heading"><div><p class="overline">WAYFARERS' PAVILION / GRAND ARCHIVE</p><h2>The Grand Archive</h2></div><button value="cancel" aria-label="Leave the Grand Archive">×</button></div>
+        <p class="archive-intro">The Archivist files whatever wanderers recover. Walk the realms, defeat their echoes and read the Jade Slips in chests to fill these shelves. Select a record to read it.</p>
+        <div class="archive-layout">
+          <nav class="archive-shelves" aria-label="Archive collections">
+            <button class="is-active" data-archive-tab="characters" type="button"><i>人物</i><span><b>Wanderers</b><small>Their stories, stage by stage</small></span><em></em></button>
+            <button data-archive-tab="items" type="button"><i>器</i><span><b>Relics</b><small>Items and manuals</small></span><em></em></button>
+            <button data-archive-tab="enemies" type="button"><i>妖</i><span><b>Bestiary</b><small>Echoes and wardens</small></span><em></em></button>
+            <button data-archive-tab="realms" type="button"><i>界</i><span><b>Histories</b><small>Realms and the world</small></span><em></em></button>
+          </nav>
+          <section class="archive-collection is-active" data-archive-panel="characters" aria-label="Wanderer records"></section>
+          <section class="archive-collection" data-archive-panel="items" aria-label="Relic records" hidden></section>
+          <section class="archive-collection" data-archive-panel="enemies" aria-label="Bestiary records" hidden></section>
+          <section class="archive-collection" data-archive-panel="realms" aria-label="Realm and world records" hidden></section>
+        </div>
+        <div class="archive-footer"><span>ARCHIVE COMPLETION</span><div><i id="archive-progress-bar"></i></div><b id="archive-progress-text">0%</b><button class="confirm-button" value="default">Return to the Pavilion</button></div>
+      </form>
+    </dialog>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

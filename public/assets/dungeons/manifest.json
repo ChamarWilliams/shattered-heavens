@@ -1,0 +1,63 @@
+{
+  "version": 2,
+  "roomTileSize": 32,
+  "roomMapSize": { "width": 19, "height": 13 },
+  "doorSocketWidthTiles": 3,
+  "generation": {
+    "style": "seeded-cardinal-room-graph",
+    "rotations": [0, 90, 180, 270],
+    "requiredReciprocalDoors": true
+  },
+  "themes": {
+    "sectless-temple": {
+      "name": "Sectless Sky Temple",
+      "hero": "Li Yunfeng",
+      "sourceKit": "/assets/dungeons/sectless-temple/source-kit-v1.png",
+      "runtimeAtlas": "/assets/dungeons/sectless-temple/tiles-v1.png",
+      "roomVariants": "/assets/dungeons/sectless-temple/rooms-v5/room-mask-{01..15}-v5.webp",
+      "enemyAtlas": "/assets/dungeons/sectless-temple/enemies-animated-v3.png",
+      "enemyProjectiles": "/assets/dungeons/sectless-temple/projectiles-v4/projectile-{hunter|heavy|sentinel|boss}-v4.png",
+      "engineReadyFixedGrid": true,
+      "note": "Repaired 4x4 runtime atlas (256px cells, rebuilt from v2 by tools/repair_enemy_sheets.py); source kit is retained for later art refinement."
+    },
+    "nightfold-crypt": {
+      "name": "Nightfold Shadow Crypt",
+      "hero": "Seo Jiwon",
+      "sourceKit": "/assets/dungeons/nightfold-crypt/source-kit-v1.png",
+      "runtimeAtlas": "/assets/dungeons/nightfold-crypt/tiles-v1.png",
+      "roomVariants": "/assets/dungeons/nightfold-crypt/rooms-v5/room-mask-{01..15}-v5.webp",
+      "enemyAtlas": "/assets/dungeons/nightfold-crypt/enemies-animated-v3.png",
+      "enemyProjectiles": "/assets/dungeons/nightfold-crypt/projectiles-v4/projectile-{hunter|heavy|sentinel|boss}-v4.png",
+      "engineReadyFixedGrid": true,
+      "note": "Repaired 4x4 runtime atlas (256px cells, rebuilt from v2 by tools/repair_enemy_sheets.py); source kit is retained for later art refinement."
+    },
+    "foxfire-shrine": {
+      "name": "Moonlit Foxfire Shrine",
+      "hero": "Tsukishiro Rei",
+      "sourceKit": "/assets/dungeons/foxfire-shrine/source-kit-v1.png",
+      "runtimeAtlas": "/assets/dungeons/foxfire-shrine/tiles-v1.png",
+      "roomVariants": "/assets/dungeons/foxfire-shrine/rooms-v5/room-mask-{01..15}-v5.webp",
+      "enemyAtlas": "/assets/dungeons/foxfire-shrine/enemies-animated-v3.png",
+      "enemyProjectiles": "/assets/dungeons/foxfire-shrine/projectiles-v4/projectile-{hunter|heavy|sentinel|boss}-v4.png",
+      "engineReadyFixedGrid": true,
+      "note": "Repaired 4x4 runtime atlas (256px cells, rebuilt from v2 by tools/repair_enemy_sheets.py); source kit is retained for later art refinement."
+    }
+  },
+  "semanticTiles": {
+    "0": "void",
+    "1": "floor",
+    "2": "floor-accent",
+    "3": "solid-wall",
+    "4": "door-socket",
+    "5": "hazard",
+    "6": "solid-prop",
+    "7": "objective"
+  },
+  "canonicalTemplatesPerTheme": [
+    { "id": "cap", "doors": ["N"], "sides": 1 },
+    { "id": "straight", "doors": ["N", "S"], "sides": 2 },
+    { "id": "corner", "doors": ["N", "E"], "sides": 2 },
+    { "id": "junction", "doors": ["N", "E", "W"], "sides": 3 },
+    { "id": "crossroads", "doors": ["N", "E", "S", "W"], "sides": 4 }
+  ]
+}

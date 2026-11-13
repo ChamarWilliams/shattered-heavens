@@ -1,0 +1,305 @@
+{
+  "image": "./li-yunfeng.png",
+  "alphaRequired": true,
+  "frames": [
+    {
+      "name": "idle-01",
+      "x": 0,
+      "y": 0,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "idle-02",
+      "x": 384,
+      "y": 0,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "idle-03",
+      "x": 768,
+      "y": 0,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "idle-04",
+      "x": 1152,
+      "y": 0,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-01",
+      "x": 0,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-02",
+      "x": 384,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-03",
+      "x": 768,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-04",
+      "x": 1152,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-05",
+      "x": 1536,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "move-06",
+      "x": 1920,
+      "y": 384,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "attack-01",
+      "x": 0,
+      "y": 768,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "attack-02",
+      "x": 384,
+      "y": 768,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "attack-03",
+      "x": 768,
+      "y": 768,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "attack-04",
+      "x": 1152,
+      "y": 768,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "attack-05",
+      "x": 1536,
+      "y": 768,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-01",
+      "x": 0,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-02",
+      "x": 384,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-03",
+      "x": 768,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-04",
+      "x": 1152,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-05",
+      "x": 1536,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-06",
+      "x": 1920,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-07",
+      "x": 2304,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "ability-08",
+      "x": 2688,
+      "y": 1152,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "hurt-01",
+      "x": 0,
+      "y": 1536,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "hurt-02",
+      "x": 384,
+      "y": 1536,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "hurt-03",
+      "x": 768,
+      "y": 1536,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-01",
+      "x": 0,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-02",
+      "x": 384,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-03",
+      "x": 768,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-04",
+      "x": 1152,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-05",
+      "x": 1536,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    },
+    {
+      "name": "death-06",
+      "x": 1920,
+      "y": 1920,
+      "width": 384,
+      "height": 384,
+      "pivotX": 200,
+      "pivotY": 319
+    }
+  ],
+  "validation": {
+    "approved": true,
+    "reviewedAt": "2026-10-26",
+    "notes": [
+      "Functional placeholder imported from echoes_of_the_realm_frames_v2.zip; artwork is not final.",
+      "Idle frames share a measured foot anchor at 200,319 and reuse frame 1 below y=286 to eliminate stepping.",
+      "Upper-body idle variation is preserved for breathing, hair movement, and clothing sway.",
+      "Ability frames keep character pixels separate: frames 1-4 reuse clean idle poses and frames 5-8 hold an isolated release pose.",
+      "Projectile and impact placeholders are mechanically extracted from supplied active ability frame 8."
+    ]
+  }
+}

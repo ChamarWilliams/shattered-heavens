@@ -1,0 +1,21 @@
+import './style.css';
+import { createGame } from './game/createGame';
+import { createLobbyGame } from './game/createLobbyGame';
+import { setupViewerControls } from './ui/setupViewerControls';
+import { setupGameShell } from './ui/setupGameShell';
+import { setupTitleScreen } from './ui/setupTitleScreen';
+import { setupArchive } from './ui/setupArchive';
+import { setupAscension } from './ui/setupAscension';
+import { setupHallShops } from './ui/setupHallShops';
+import { setupTutorial } from './ui/setupTutorial';
+
+setupViewerControls();
+const game = createGame();
+const lobbyGame = createLobbyGame();
+setupGameShell(game, lobbyGame);
+setupTitleScreen(lobbyGame);
+setupHallShops(lobbyGame);
+setupAscension(lobbyGame);
+setupArchive(lobbyGame);
+setupTutorial(lobbyGame);
+Object.assign(window, { __echoesGame: game, __echoesLobbyGame: lobbyGame });
